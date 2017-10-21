@@ -27,3 +27,12 @@ public static void initSDKConfiguration(String key, String appID, String appSecr
             1, "188.66.88.123", "aaa").appendNative("1").build();
     UnifiedResData unifiedResData = request.run(unifiedReqData);
 ```
+
+```
+// 实例化请求
+XxxRequest xxxPayRequest = new XxxRequest();
+// 创建请求体
+XxxReqData xxxReqData = new XxxReqData(params...);
+// 得到返回数据
+XxxResData xxxResData = xxxPayRequest.run(xxxReqData);
+```

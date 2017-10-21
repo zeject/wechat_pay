@@ -18,7 +18,7 @@ public class CloseOrderRequest {
     }
 
     /**
-     * 进行一次支付订单查询操作
+     * 关闭订单操作
      *
      * @param outTradeNo 商户系统内部的订单号,32个字符内可包含字母, [确保在商户系统唯一]
      * @return 该订单是否支付成功

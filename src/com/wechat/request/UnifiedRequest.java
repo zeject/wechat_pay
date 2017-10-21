@@ -18,7 +18,7 @@ public class UnifiedRequest {
 
     public UnifiedResData run(UnifiedReqData unifiedReqData) throws Exception {
         // --------------------------------------------------------------------
-        // 构造请求“被扫支付API”所需要提交的数据
+        // 构造请求“统一下单”所需要提交的数据
         // --------------------------------------------------------------------
         // 接受API返回
         String payServiceResponseString;
