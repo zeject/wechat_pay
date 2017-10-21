@@ -28,6 +28,24 @@ public static void initSDKConfiguration(String key, String appID, String appSecr
     UnifiedResData unifiedResData = request.run(unifiedReqData);
 ```
 
+### 具体使用方法
+1. 被扫支付 ScanPayRequest
+1. 统一下单 UnifiedRequest
+1. 关闭订单操作 CloseOrderRequest
+1. 对账单下载 DownloadBillRequest
+1. 支付API异步返回 NotifyRequest
+1. 进行一次支付订单查询操作 OrderQueryRequest
+1. 调用退款业务逻辑 RefundRequest
+1. 企业付款查询 PromotionTransfersInfoRequest
+1. 企业付款 PromotionTransfersRequest
+1. 发放代金券 CouponRequest
+1. 查询代金券信息 QueryCouponsInfoRequest
+1. 查询代金券批次 QueryCouponStockRequest
+1. 查询红包记录 RedPackInfoRequest
+1. 发送普通红包 RedPackRequest
+1. 发送裂变红包 GroupRedPackRequest
+
+
 ```
 // 实例化请求
 XxxRequest xxxPayRequest = new XxxRequest();
